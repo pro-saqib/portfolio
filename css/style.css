@@ -492,7 +492,7 @@ section {
 }
 @media (max-width: 768px) {
   .heading {
-    font-size: 12vw;
+    font-size: 8vw;
   }
 
   .navbar a i {
@@ -529,6 +529,18 @@ section {
   html {
     font-size: 50%;
   }
+  .contact .row .info-container .box-container{
+     flex-direction: column;
+  }
+  .share {
+     justify-content: flex-start;
+  }
+  .about .row{
+    gap: 5rem;
+  }
+  .home {
+    min-height: calc(85vh - 6.5rem);
+}
 }
 
 /*# sourceMappingURL=style.css.map */
